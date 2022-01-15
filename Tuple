@@ -1,0 +1,25 @@
+# 20CE139, Om Sutariya
+
+# Task A: Write a Python program to create a tuple with different data types.
+tuple1 = (100, 200, 300, 400)
+tuple2 = ("Om", "Sutariya")
+print(tuple1)
+print(tuple2)
+
+# Task B: Write a Python program to create a tuple with numbers and print one item.
+tuple = (1, 2, 3, 4)
+print("task B: ", tuple[3])
+
+# Task C: Write a Python program to add an item in a tuple.
+tuple = (1, 2, 3, 4)
+tuple = tuple + (5, 6)
+print("task C: ", tuple)
+
+# Task D: Write a Python program to convert a tuple to a string.
+tuple = ('H', 'e', 'l', 'l', 'o')
+result = ''.join(tuple)
+print("task D: ", result)
+
+# Task E: Write a Python program to find the length of a tuple.
+tuple = ('H', 'e', 'l', 'l', 'o')
+print("Task E:: Tuple's length is: ", len(tuple))
