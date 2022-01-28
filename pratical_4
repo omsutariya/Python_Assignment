@@ -1,0 +1,6 @@
+num1 = int(input())
+num2 = list(map(int, input().split(' ')))
+num3 = set(num2)
+list1 = list(num3)
+list1.reverse()
+print(list1[1])
